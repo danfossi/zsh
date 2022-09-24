@@ -3945,19 +3945,19 @@ if [ $maxcolors -eq "8" ];then
         zstyle ':prompt:grml:*:items:user' pre '%B%F{red}'
         zstyle ':prompt:grml:*:items:at' pre '%B%F{red}'
         zstyle ':prompt:grml:*:items:host' pre '%B%F{red}'
-        zstyle ':prompt:grml:*:items:percent' pre '%B%F{white}'
+        zstyle ':prompt:grml:*:items:percent' pre '%B%F{cyan}'
         zstyle ':prompt:grml:*:items:percent' post '%B%F{reset}'
         zstyle ':prompt:grml:right:items:sad-smiley' pre '%B%F{red}'
-        zstyle ':prompt:grml:*:items:path' pre '%F{white}'
+        zstyle ':prompt:grml:*:items:path' pre '%F{cyan}'
         zstyle ':prompt:grml:*:items:path' post '%F{reset}'
     else
         zstyle ':prompt:grml:*:items:user' pre '%B%F{blue}'
         zstyle ':prompt:grml:*:items:at' pre '%B%F{blue}'
         zstyle ':prompt:grml:*:items:host' pre '%B%F{blue}'
-        zstyle ':prompt:grml:*:items:percent' pre '%B%F{white}'
+        zstyle ':prompt:grml:*:items:percent' pre '%B%F{cyan}'
         zstyle ':prompt:grml:*:items:percent' post '%B%F{reset}'
         zstyle ':prompt:grml:right:items:sad-smiley' pre '%B%F{red}'
-        zstyle ':prompt:grml:*:items:path' pre '%F{white}'
+        zstyle ':prompt:grml:*:items:path' pre '%F{cyan}'
         zstyle ':prompt:grml:*:items:path' post '%F{reset}'
     fi
 else
